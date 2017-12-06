@@ -209,4 +209,5 @@ public class MainActivity extends AppCompatActivity {
         displayRedForTeamA(redCardA);
         displayRedForTeamB(redCardB);
     }
+
 }

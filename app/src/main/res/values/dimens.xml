@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="text_size_score">56sp</dimen>
+    <dimen name="text_size_team_name">20sp</dimen>
+    <dimen name="layout_marg_left_right_buttons">24dp</dimen>
+    <dimen name="faul_size">45sp</dimen>
+
+
+</resources>
