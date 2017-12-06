@@ -46,6 +46,21 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+// TODO Auto-generated method stub
+        super.onSaveInstanceState(outState);
+        outState.putInt("KEY_SCORE_TEAM_A",scoreTeamA);
+    }
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+// TODO Auto-generated method stub
+        super.onRestoreInstanceState(savedInstanceState);
+//Get the score of team A you stored in above method.
+        int teamAScore = savedInstanceState.getInt("KEY_SCORE_TEAM_A");
+        text.setText(String.valueOf(teamAScore));
+
+    }
 
     /**
      * Increase score for Team A of 10 pt.
