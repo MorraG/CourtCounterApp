@@ -3,4 +3,8 @@
     <color name="colorPrimary">#d9ad00</color>
     <color name="colorPrimaryDark">#7b0000</color>
     <color name="white_reset">#FFFFFF</color>
+    <color name="gold_background">#d9ad00</color>
+    <color name="bluecard_color">#2f52a6</color>
+    <color name="yellowcard_color">#fdffe67f</color>
+    <color name="redcard_color">#fdb10c00</color>
 </resources>

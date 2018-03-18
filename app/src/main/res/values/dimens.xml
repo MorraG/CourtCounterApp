@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-
-    <dimen name="text_size_score">56sp</dimen>
+    <dimen name="textSize_S">14sp</dimen>
+    <dimen name="textSize_M">24sp</dimen>
+    <dimen name="textSize_L">56sp</dimen>
+    <dimen name="paddingOrMar_S">8dp</dimen>
+    <dimen name="paddingOrMar_M">12dp</dimen>
+    <dimen name="paddingOrMar_L">18dp</dimen>
+    <dimen name="paddingOrMar_XL">24dp</dimen>
+    <dimen name="paddingOrMar_XXL">28dp</dimen>
+    <dimen name="paddingOrMar_XXXL">35dp</dimen>
     <dimen name="text_size_team_name">20sp</dimen>
-    <dimen name="layout_marg_left_right_buttons">24dp</dimen>
-    <dimen name="faul_size">45sp</dimen>
+    <dimen name="foul_size">45sp</dimen>
 
 
 </resources>

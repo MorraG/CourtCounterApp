@@ -46,19 +46,17 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
-// TODO Auto-generated method stub
-        super.onSaveInstanceState(outState);
-        outState.putInt("KEY_SCORE_TEAM_A",scoreTeamA);
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+// Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState);
     }
+
     @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-// TODO Auto-generated method stub
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+// Always call the superclass so it can restore the view hierarchy
         super.onRestoreInstanceState(savedInstanceState);
-//Get the score of team A you stored in above method.
-        int teamAScore = savedInstanceState.getInt("KEY_SCORE_TEAM_A");
-        text.setText(String.valueOf(teamAScore));
 
     }
 
